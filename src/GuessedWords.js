@@ -1,5 +1,11 @@
 import PropTypes from 'proptypes';
 
+/**
+ * Functional react component to display guessed words.
+ * @function
+ * @param {object} props - React props. 
+ * @returns 
+ */
 const GuessedWords = ({ guessedWords }) => {
   return (
     <div data-test="component-guessed-words">
